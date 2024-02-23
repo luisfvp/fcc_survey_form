@@ -8,8 +8,8 @@ In this project, I will have the opportunity to create a fully functional survey
 
 ## Follow Me!!
 
-### [** My GitHub Profile **](https://github.com/luisfvp)
-### [** Project Link **](https://github.com/luisfvp/fcc_survey_form)
+### [My GitHub Profile: ](https://github.com/luisfvp)
+### [Project Link](https://github.com/luisfvp/fcc_survey_form)
 
 
 
