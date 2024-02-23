@@ -7,6 +7,8 @@ Welcome to the Survey Form Project, a crucial step on my journey to earning my F
 In this project, I will have the opportunity to create a fully functional survey form using HTML and CSS. This form will not only showcase my ability to structure content with HTML but also demonstrate my styling prowess with CSS. The project aims to test my understanding of form elements, input fields, labels, and styling techniques, offering a comprehensive exercise that aligns with industry standards.
 
 
+### [Check out my project on codepen](https://codepen.io/luisfvp/pen/jOKoJqJ)
+
 
 
 
