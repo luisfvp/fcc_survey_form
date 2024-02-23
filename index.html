@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>fcc survey form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link href="https://cdn.jsdelivr.net/npm/modern-normalize@v2.0.0/modern-normalize.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <div class="main_box">
+        <h1 id="title">FCC Survey Form</h1>
+        <p id="description">Build a Survey Form FCC Project</p>
+        <form id="survey-form">
+            <div class="name_email">
+                <label id="name-label"> Name
+                    <input type="text" id="name" placeholder="Name" required>
+                </label>
+                <br>
+                <br>
+                <label id="email-label"> Email
+                    <input type="email" id="email" placeholder="Email" required>
+                <label>
+            </div>
+            <br>
+            <label id="number-label">
+                <input type="number" id="number" min="1" max="30" placeholder="Number">
+            </label>
+
+            <!-- select field -->
+            <select id="dropdown">
+                <option value="volvo">Selection 1</option>
+                <option value="saab">Selection 2</option>
+            </select>
+            <br>
+            <br>
+            <!-- input radio button -->
+            <fieldset>
+                <legend>Select a Number</legend>
+                <label>
+                    <input type="radio" name="numero" value="1"> 1
+                </label>
+                <label>
+                    <input type="radio" name="numero" value="2"> 2
+                </label>
+                <label>
+                    <input type="radio" name="numero" value="3"> 3
+                </label>
+                <label>
+                    <input type="radio" name="numero" value="3"> 4
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Select a Pet</legend>
+                <label>
+                    <input type="checkbox" value="dog"> 1
+                </label>
+                <label>
+                    <input type="checkbox" value="cat"> 2
+                </label>
+                <label>
+                    <input type="checkbox" value="rabbit"> 3
+                </label>
+                <label>
+                    <input type="checkbox" value="bird"> 4
+                </label>
+            </fieldset>
+            <br>
+            <textarea placeholder="leave your comment "></textarea>
+            <br>
+            <br>
+            <button id="submit">Submit</submit>
+        </form>
+    </div>
+</body>
+</html>
